@@ -968,13 +968,14 @@ position: relative;
 .team-box{
     display: flex;
     justify-content: center;
-    gap: 0px;
+    gap: 10px;
 }
 
 .t-b-c{
     border: 1px solid gray;
     max-width:350px ;
     height: 255px;
+    border-radius: 10px;
 }
 .t-b-c img{
     margin-top: 20px;
@@ -990,3 +991,148 @@ position: relative;
    color: gray;
 }
    
+
+/* last div */
+
+.last-div{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ margin-top: 100px;
+height: 600px;;
+
+}
+.last-div-img{
+    background-image: url(/img/Bitmap\ \(30\).png);
+    background-repeat: no-repeat;
+    background-size:500px ;
+    margin-left: 10px;
+  
+  
+}
+.last-div-text{
+    max-width:360px ;
+    position: relative;
+    z-index: 2;
+}
+.last-div-text h1{
+    color: #FDF0E9;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
+.last-div-text h5{
+    color: #FDF0E9;
+    margin-bottom: 8px;
+}
+.last-div-text p{
+    color: gray;
+}
+.text-bg-img{
+    position: absolute;
+    top: -20px;
+    right: 55px;
+    z-index:-1;
+}
+
+/* revew section */
+
+
+.s-r-c{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.s-r-c-text h1{
+    max-width:200px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    color: #391400;
+  
+}
+.s-r-c-text span{
+
+    display: flex;
+    align-items: center;
+}
+.s-r-c-text h4{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.s-r-c-card-c{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.s-r-c-card-1,
+.s-r-c-card-2,
+.s-r-c-card-3,
+.s-r-c-card-4{
+    max-width: 500px;
+    border: 1px solid #F3D1BF;
+}
+.s-r-c-card-c ul {
+   display: flex;
+   margin: 30px 30px 20px ;
+  
+}
+
+.s-r-c-card-1 p,
+.s-r-c-card-2 p,
+.s-r-c-card-3 p,
+.s-r-c-card-4 p{
+    color: rgb(75, 74, 74);
+    margin: 30px 20px 25px 35px;
+
+}
+.s-r-c-card-1{
+    height: 360px;
+}
+.s-r-c-card-2{
+    height: 300px;
+}
+.s-r-c-card-3{
+    height: 280px;
+}
+.s-r-c-card-4{
+    height: 300px;
+margin-bottom: 50PX;
+}
+
+.s-img-{
+    width:50px ;
+    height:50px ;
+}
+.line{
+    line-height: 0%;
+}
+.u-l-img-2{
+    display: flex;
+
+    margin-left: 60px;
+}
+.d-100 ul li,.d-100 img{
+    display: flex;
+      justify-content: flex-end;
+    margin-top: 20px;
+}
+.r-btn{
+    display:flex ;
+    justify-content: center;
+     color: #000;
+    align-items: center;
+    border: 1px solid #F3D1BF;
+}
+.r-b-1{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
